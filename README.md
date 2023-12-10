@@ -15,7 +15,7 @@ Como aprendizado, destaco:
 - Compreensão de variáveis e constantes
 - Uso efetivo dos comandos git: `git add`, `git commit`, `git pull`, `git push`, `git branch`
 - Gerenciamento de repositórios no GitHub (clone e fork)
-- Instalação do react-app
+- Instalação do npm create-react-app
 - Utilização do HTML semântico
 - Aplicação de seletores CSS
 - Gerenciamento de eventos no DOM
