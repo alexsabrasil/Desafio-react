@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #FCEEC8;
+}
+
+.main-title{
+    color: darkgreen;
+    text-align: center;
+    padding: 1.5rem;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    background-color: #FCEEC8;
+    z-index: 1000;
+}
+
+.main-title {
+    animation: colorChange 3s infinite; /* Ajuste a duração conforme necessário */
+} 
+
+.container{
+    width: 90%;
+    margin: auto;
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.left-content,.right-content{
+    flex-basis: 50%;
+}
+
+.left-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 1rem;
+}
+
+.card{
+    width:250px;
+    background-color:#9EDEF9;
+    border-radius: 1rem;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.5);
+    font-size: 10px;
+    padding: 0 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+/* Para animar o título */
+@keyframes colorChange {
+    0% {
+      color: #b74555; /* Cor inicial */
+    }
+    50% {
+      color: #4CAF50; /* Nova cor */
+    }
+    100% {
+      color: #b74555; /* Volta para a cor inicial */
+    }
+  }
+  
+.right-content{
+    width: 50%;
+    text-align: center;
+    color: black;
+    position: fixed;
+    top:100px;
+    right: 10px;
+}
+
+.right-content img{
+    margin: 1.5rem;
+    height: 160px;
+}
+
+.right-content h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.abilities{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.abilities .group{
+    background-color: #b74555;
+    color: white;
+    padding: 0.5rem;
+    font-size: 12px;
+    border-radius: 8px;
+    margin-left: 1rem;
+}
+
+.base-stat{
+    margin-top: 2rem;
+}
+
+.btn-group{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.btn-group button{
+    outline: none;
+    border: none;
+    width: 150px;
+    padding: 0.3rem 0;
+    margin: 1rem;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    background-color: #b74555;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333; /* Cor de fundo do footer */
+    color: #e2dfdf; /* Cor do texto no footer */
+  }
+  
+
+@media only screen and (max-width: 767px) {
+    .container {
+        padding-top: 50px; 
+    }
+
+    .card {
+        font-size: 14px; 
+    }
+
+    .btn-group button {
+        width: 100%; 
+    }
+}
