@@ -12,13 +12,14 @@ A base sólida que obtive e os aprofundamentos no 'Desafio React' me proporciona
 
 Como aprendizado, destaco:
 
-- Compreensão de variáveis e constantes
+- Aprofundamento na compreensão de variáveis e constantes
 - Uso efetivo dos comandos git: `git add`, `git commit`, `git pull`, `git push`, `git branch`
-- Gerenciamento de repositórios no GitHub (clone e fork)
-- Instalação do npm create-react-app
-- Utilização do HTML semântico
-- Aplicação de seletores CSS
-- Gerenciamento de eventos no DOM
+- Domínio no gerenciamento de repositórios no GitHub (clone e fork)
+- Habilidade adquirida na instalação do `npx create-react-app nome-do-seu-app`
+- Aplicação prática do HTML semântico para melhorar a estrutura e a compreensão do código
+- Utilização de seletores CSS para aprimorar a estilização e o design
+- Proficiência no gerenciamento de eventos no DOM, enriquecendo a interatividade do aplicativo
+- Exploração do método global `fetch()` , entendimento do `setState` , aplicação de conceitos de `API` e `componentização`
 - Implementação do deploy no GitHub Pages
 
 Espero que apreciem o resultado, pois estou verdadeiramente satisfeita por ter conseguido simplificar o básico, transformando aprendizado em prática.
