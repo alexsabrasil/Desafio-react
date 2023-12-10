@@ -4,10 +4,13 @@
 
 Durante um período dedicado de 3 meses, participei ativamente de aulas ao vivo e dos debates nos fóruns dos grupos Discord e Whatsapp. Essa experiência foi enriquecida pelas oficinas "Mão na Massa" promovidas pela equipe da Campinho Digital, que abordaram temas relevantes, como React e Consumo de APIs (ministrada por Raissa Barata, Engenheira de Software Frontend na Ifood S.A.) e Componentes Reutilizáveis com React (apresentada por Alícia Foureaux, Engenheira de Software Sênior na Togetherhood).
 
-A sólida base adquirida e aprofundamentos realizados sobre o 'Desafio React' proporcionaram-me os recursos necessários para desenvolver meu primeiro projeto React. Optei por explorar o uso de APIs com foco nos Pokémon, desvendando códigos e construindo uma estrutura organizada e limpa. Além disso, dediquei atenção especial à estilização e à responsividade do projeto.
+A sólida base adquirida e aprofundamentos realizados sobre o 'Desafio React' proporcionaram-me os recursos necessários para desenvolver meu primeiro projeto React. Optei por explorar o uso de APIs com foco nos Pokémon, desvendando códigos e construindo uma estrutura organizada e limpa. Além disso, dediquei atenção especial à estilização com animação e à responsividade do projeto.
 
 Admito que o cansaço e as dificuldades iniciais causaram desmotivação em alguns momentos, mas a superação de cada obstáculo reavivou minha determinação. Cada passo conquistado renovou meu entusiasmo para continuar e concluir o projeto, que passou por várias tentativas até alcançar o resultado final. Espero sinceramente que apreciem o resultado, pois estou muito satisfeita por ter conseguido simplificar o básico.
 
+## Projeto:
+![p1](https://github.com/alexsabrasil/Desafio-react/assets/113733583/8166d1e0-bbb8-4b00-a29f-23494648d872)
+![p2](https://github.com/alexsabrasil/Desafio-react/assets/113733583/f89591f7-9e94-4b43-ad86-30423920956a)
 
 ## Pokémon React App
 
