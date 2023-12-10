@@ -1,12 +1,29 @@
 # Desafio React 2.2023
 
- Meu nome é Alexsandra e sou aluna do curso de Programação Web FullStack na Campinho Digital 2.2023. O projeto que apresento tem como objetivo a aplicação prática dos conhecimentos adquiridos, inicialmente focando em HTML, CSS e JavaScript puro. Avançamos gradativamente, explorando conceitos básicos e, posteriormente, aprofundando-nos em estudos sobre JSON, React e APIs.
+Olá,
 
-Durante um período dedicado de 3 meses, participei ativamente de aulas ao vivo e dos debates nos fóruns dos grupos Discord e Whatsapp. Essa experiência foi enriquecida pelas oficinas "Mão na Massa" promovidas pela equipe da Campinho Digital, que abordaram temas relevantes, como React e Consumo de APIs (ministrada por Raissa Barata, Engenheira de Software Frontend na Ifood S.A.) e Componentes Reutilizáveis com React (apresentada por Alícia Foureaux, Engenheira de Software Sênior na Togetherhood).
+Me chamo Alexsandra e faço parte da turma de Programação Web FullStack na Campinho Digital 2.2023. Estou empolgada em compartilhar o resultado do meu primeiro projeto React, que visa aplicar os conhecimentos adquiridos ao longo do curso, começando com HTML, CSS e JavaScript puro e evoluindo para conceitos mais avançados, como JSON, React e APIs.
 
-A sólida base adquirida e aprofundamentos realizados sobre o 'Desafio React' proporcionaram-me os recursos necessários para desenvolver meu primeiro projeto React. Optei por explorar o uso de APIs com foco nos Pokémon, desvendando códigos e construindo uma estrutura organizada e limpa. Além disso, dediquei atenção especial à estilização com animação e à responsividade do projeto.
+Ao longo de três meses intensivos, participei ativamente de aulas ao vivo e contribuí para debates nos fóruns do Discord e Whatsapp. A experiência foi enriquecida pelas "Oficinas Mão na Massa" oferecidas pela equipe da Campinho Digital, com temas valiosos, como React e Consumo de APIs, ministrados por profissionais renomados, como Raissa Barata, Engenheira de Software Frontend na Ifood S.A., e Componentes Reutilizáveis com React, apresentados por Alícia Foureaux, Engenheira de Software Sênior na Togetherhood.
 
-Admito que o cansaço e as dificuldades iniciais causaram desmotivação em alguns momentos, mas a superação de cada obstáculo reavivou minha determinação. Cada passo conquistado renovou meu entusiasmo para continuar e concluir o projeto, que passou por várias tentativas até alcançar o resultado final. Espero sinceramente que apreciem o resultado, pois estou muito satisfeita por ter conseguido simplificar o básico.
+A base sólida que obtive e os aprofundamentos no 'Desafio React' me proporcionaram os recursos necessários para desenvolver meu projeto. Escolhi explorar APIs relacionadas aos Pokémon, desvendando códigos e construindo uma estrutura organizada e limpa. Além disso, dediquei especial atenção à estilização, incorporando animações e garantindo a responsividade do projeto.
+
+É válido admitir que o cansaço e as dificuldades iniciais trouxeram momentos desafiadores, gerando desmotivação. Contudo, a superação de cada obstáculo reavivou minha determinação. Cada passo conquistado renovou meu entusiasmo para continuar e concluir o projeto, que passou por várias iterações até atingir o resultado final.
+
+Como aprendizado, destaco:
+
+- Aprofundamento na compreensão de variáveis e constantes
+- Uso efetivo dos comandos git: `git add`, `git commit`, `git pull`, `git push`, `git branch`
+- Domínio no gerenciamento de repositórios no GitHub (clone e fork)
+- Habilidade adquirida na instalação do `npx create-react-app nome-do-seu-app`
+- Aplicação prática do HTML semântico para melhorar a estrutura e a compreensão do código
+- Utilização de seletores CSS para aprimorar a estilização e o design
+- Proficiência no gerenciamento de eventos no DOM, enriquecendo a interatividade do aplicativo
+- Exploração do método global `fetch()` , entendimento do `setState` , aplicação de conceitos de `API` e `componentização`
+- Implementação do deploy no GitHub Pages
+
+Espero que apreciem o resultado, pois estou verdadeiramente satisfeita por ter conseguido simplificar o básico, transformando aprendizado em prática.
+
 
 ## Projeto:
 ![p1](https://github.com/alexsabrasil/Desafio-react/assets/113733583/8166d1e0-bbb8-4b00-a29f-23494648d872)
@@ -64,4 +81,4 @@ Este projeto React consome a PokeAPI para exibir informações sobre Pokémon. O
 
 ---
 
-**Aviso:** Este README é um exemplo básico de estudo. Sintam-se à vontade para dar feedbacks.
+**Aviso:** Este README serve como um exemplo básico de estudo. Fiquem à vontade para fornecer feedbacks.
