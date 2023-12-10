@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Desafio React 2.2023
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ Meu nome é Alexsandra e sou aluna do curso de Programação Web FullStack na Campinho Digital 2.2023. O projeto que apresento tem como objetivo a aplicação prática dos conhecimentos adquiridos, inicialmente focando em HTML, CSS e JavaScript puro. Avançamos gradativamente, explorando conceitos básicos e, posteriormente, aprofundando-nos em estudos sobre JSON, React e APIs.
 
-## Available Scripts
+Durante um período dedicado de 3 meses, participei ativamente de aulas ao vivo e dos debates nos fóruns dos grupos Discord e Whatsapp. Essa experiência foi enriquecida pelas oficinas "Mão na Massa" promovidas pela equipe da Campinho Digital, que abordaram temas relevantes, como React e Consumo de APIs (ministrada por Raissa Barata, Engenheira de Software Frontend na Ifood S.A.) e Componentes Reutilizáveis com React (apresentada por Alícia Foureaux, Engenheira de Software Sênior na Togetherhood).
 
-In the project directory, you can run:
+A sólida base adquirida e aprofundamentos realizados sobre o 'Desafio React' proporcionaram-me os recursos necessários para desenvolver meu primeiro projeto React. Optei por explorar o uso de APIs com foco nos Pokémon, desvendando códigos e construindo uma estrutura organizada e limpa. Além disso, dediquei atenção especial à estilização e à responsividade do projeto.
 
-### `npm start`
+Admito que o cansaço e as dificuldades iniciais causaram desmotivação em alguns momentos, mas a superação de cada obstáculo reavivou minha determinação. Cada passo conquistado renovou meu entusiasmo para continuar e concluir o projeto, que passou por várias tentativas até alcançar o resultado final. Espero sinceramente que apreciem o resultado, pois estou muito satisfeita por ter conseguido simplificar o básico.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Pokémon React App
 
-### `npm test`
+Este projeto React consome a PokeAPI para exibir informações sobre Pokémon. Os usuários podem navegar entre os Pokémon, visualizar detalhes e interagir com a aplicação.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Funcionalidades Principais
 
-### `npm run build`
+- **Consumo da API Pokémon:**
+  - A aplicação utiliza a [PokeAPI](https://pokeapi.co/) para obter dados sobre os Pokémon.
+  - A função `fetchPokemonData` faz chamadas assíncronas para a API e atualiza o estado com os dados recebidos.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Listagem de Pokémon:**
+  - Os Pokémon são exibidos em cards na parte esquerda da página.
+  - Cada card exibe o ID, imagem (se disponível) e nome do Pokémon.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Navegação entre Páginas:**
+  - Botões "Previous" e "Next" permitem a navegação entre diferentes páginas de Pokémon.
+  - Esses botões atualizam o estado da URL e fazem uma nova chamada à API.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Detalhes do Pokémon:**
+  - Ao clicar em um card, o usuário pode ver informações detalhadas sobre o Pokémon selecionado na parte direita da página.
 
-### `npm run eject`
+- **Estilo Responsivo:**
+  - O layout do aplicativo é responsivo, adaptando-se a diferentes tamanhos de tela.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **GitHub Pages Deploy:**
+  - O aplicativo está hospedado no GitHub Pages, permitindo que outros usuários acessem a aplicação online.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Melhorias Possíveis
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Estilo:**
+  - Aprimorar ainda mais o estilo e a aparência do aplicativo.
+  - Adicionar animações para uma experiência mais interativa.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Melhor Gerenciamento de Estado:**
+  - Explorar o uso de um gerenciador de estado mais robusto, como Redux, para facilitar o controle do estado em aplicações maiores.
 
-## Learn More
+- **Detalhes Adicionais:**
+  - Adicionar mais informações sobre os Pokémon, como habilidades, estatísticas, etc.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Testes:**
+  - Implementar testes para garantir a estabilidade e robustez do aplicativo.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Como Executar o Projeto
 
-### Code Splitting
+1. Clone este repositório: `git clone https://github.com/seu-usuario/pokemon-react.git`
+2. Entre no diretório do projeto: `cd pokemon-react`
+3. Instale as dependências: `npm install`
+4. Inicie o aplicativo: `npm start`
+5. Abra o navegador e acesse [http://localhost:3000](http://localhost:3000)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Aviso:** Este README é um exemplo básico de estudo. Sintam-se à vontade para dar feedbacks.
