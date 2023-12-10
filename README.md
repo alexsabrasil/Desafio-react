@@ -56,11 +56,11 @@ Este projeto React consome a PokeAPI para exibir informações sobre Pokémon. O
 
 ## Como Executar o Projeto
 
-1. Clone este repositório: `git clone https://github.com/seu-usuario/pokemon-react.git`
+1. Clone este repositório: `git clone https://github.com/alexsabrasil/Desafio-react.git`
 2. Entre no diretório do projeto: `cd pokemon-react`
 3. Instale as dependências: `npm install`
 4. Inicie o aplicativo: `npm start`
-5. Abra o navegador e acesse [http://localhost:3000](http://localhost:3000)
+5. Abra o navegador e acesse [http://localhost:3000/Desafio-react](http://localhost:3000/Desafio-react)
 
 ---
 
