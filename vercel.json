@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "builds": [{ "src": "build/*", "use": "@vercel/static" }],
+    "builds": [{ "src": "./assets/charmander.png", "use": "@vercel/static" }],
     "routes": [{ "src": "/(.*)", "dest": "/index.html" }]
   }
   
