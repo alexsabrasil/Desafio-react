@@ -8,7 +8,7 @@ const Pokeinfo = ({ data }) => {
             (!data) ? "" : (
                 <>
                     <h1>{data.name}</h1>
-                    <img src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${data.id}.svg`} alt="" />
+                    <img src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${data.id}.svg`} alt="dados do pokemon" />
                     <div className="abilities">
                         {
                             data.abilities.map(poke=>{
